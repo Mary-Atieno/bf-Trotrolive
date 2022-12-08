@@ -1,4 +1,7 @@
+{% load bootstrap4 %}
 {% load static %}
+{% block content %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -161,8 +164,10 @@
             <p class="head2text">Ask about Trotro.ai product, implementation or anything else. 
             Our highly trained reps are standing by, ready to help.</p>
             <div class="part-line"></div>
-            <div class="concan">                            
-                <input type="submit" name="submit" value="Contact Us" class="contt">
+            <div class="concan">
+                <input type="submit" name="submit" value="Contact Us" class="btn">
+                           
+                <!-- <input type="submit" name="submit" value="Contact Us" class="contt"> -->
             </div>
         </div>
         <div class="con-right">
@@ -211,7 +216,7 @@
     </div>
     <footer>
         <div class="socials">
-            <div>            
+            <div>         
                 <img src="{%static 'images/twitter.svg'%}"  alt="comma-pic">  
             </div>
             <div>            
@@ -226,7 +231,9 @@
         </div>
         <div>
             <div class="policy-box">
-                <span>&#169; 404 Solutions Inc 2022 . All rights reserved. </span>
+                <p class="copyright text-center">Copyright &copy; 404 Solutions Inc 2022 . All rights reserved.</p>
+
+                <!-- <span>&#169; 404 Solutions Inc 2022 . All rights reserved. </span> -->
             </div>
             <div class="termsbox">
                 <a href="#">Terms</a>
@@ -244,3 +251,4 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>    
 </body>
 </html>
+{%endblock%}
