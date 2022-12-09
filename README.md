@@ -8,7 +8,6 @@
 - Joseph Endale
 - Saheed Adeyemi
 
-
 ## Description
 
 ## Technologies Used
