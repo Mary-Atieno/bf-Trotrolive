@@ -1,3 +1,6 @@
+body{
+  overflow-x: hidden;
+}
 /* navbar begin */
 .main-con{
   height:100%;
@@ -368,6 +371,18 @@ a{
   max-width: 500px;
 
 }
+/* .heading{
+  position: relative;
+} */
+.heading-text{
+  font-size: 44px;
+  color: #092C4C;
+  font-weight: bold;
+  line-height: 100%;
+  max-width: 500px;
+  /* position: absolute;
+  bottom: 400px; */
+}
 .ceoimg{
   width: 100px;
   height: 100px;
@@ -548,6 +563,7 @@ line-height: 100%;
 
 /* === navbar === */
 @media only screen and (max-width: 820px){
+ 
   .navbar-menu{
     display: block;
     position:absolute;
@@ -583,12 +599,13 @@ line-height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-right: 30px;
   
   }
   .route{
    background-color: #FFFEFE;
-   height: 430px;
-   width: 380px;
+   height: 400px;
+   width: 350px;
    border-radius: 6px;
    margin-left: 40px;
    padding: 0 20px;
@@ -641,7 +658,6 @@ line-height: 100%;
     padding: 0px;
     display: grid;
     grid-template-columns: 1fr;
-
     background-color: #FCF0CF;
   }
   
@@ -649,9 +665,8 @@ line-height: 100%;
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
   }
+  
   .mob-details{
     width: 100%;
     height: 100%;
@@ -700,38 +715,44 @@ line-height: 100%;
   .miss-con1-img img{
     width: 100%;
   }
-  .contact{
-    width: 100%;
-    padding: 30px 40px;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 10px;
-    background-color: #FCF0CF;
-    opacity: 85%;
-  }
-  .part-line{
-    width: 100%;
-    height: 1px;
-    background-color: #00000020;
-    }
-    .contt{
-      background-color:#B72684;
-      color: #ffffff;
-      border-radius: 8px;
-      border: none;
-      padding: 15px;
-      width: 40%;
-    }
-    .con-right{
-      width: 100%;
-      height: 100%;
-      display: flex;
-      justify-content: center;
-      margin-top: 10px;
-    }
+  
     /* === homepage ends === */
 
     /* === footer === */
+    .contact{
+      width: 100%;
+      padding: 30px 30px;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 10px;
+      background-color: #FCF0CF;
+      opacity: 85%;
+      overflow: hidden;
+    }
+    .part-line{
+      width: 100%;
+      height: 1px;
+      background-color: #00000020;
+      }
+      .contt{
+        background-color:#B72684;
+        color: #ffffff;
+        border-radius: 8px;
+        border: none;
+        padding: 15px;
+        width: 40%;
+      }
+      .con-right{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+      }
+      .con-right img{
+        width: 100%;
+      }
     .services{
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -762,11 +783,11 @@ line-height: 100%;
   }
   .aboutt{
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 80px;
   }
   .aboutext{
     font-size: 44px;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
   }
   .aboutext2{
     font-size: 24px;
@@ -786,12 +807,17 @@ line-height: 100%;
   }
   .toge{
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     padding: 0 40px;
   }
-  .head-text{
-    font-size: 44px;
+  .heading-text{
+    font-size: 44px; 
   }
+  /* .heading{
+    position: absolute;
+    bottom: 0;
+    top: 0;
+  } */
   .toge1{
     font-size: 24px;
     padding-bottom: 5px;
@@ -851,6 +877,11 @@ line-height: 100%;
   .teampic{
     width: 100%;
   }
+  .teampic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
   .tname{
     padding-top: 10px;
     font-size: 32px;
@@ -871,20 +902,34 @@ line-height: 100%;
 
 /*=== ContactPage === */
 @media only screen and (max-width: 820px){
+  body{
+    overflow-x: hidden;
+  }
+  .contactsec{
+    padding: 30px 0;
+  }
   .contsec{
+    align-items: center;
+    justify-content: center;
     width: 100%;
-    padding: 5px;
+    padding-left: 30px;
     display: grid;
     grid-template-columns: 1fr;
   }
   .contsec1{
+    width: 90%;
     position: relative;
+    padding-left: 30px;
   }
   .context{
     text-align: center;
   }
   .context1{
     max-width: 400px;
+  }
+  .contsec2{
+    width: 90%;
+    padding-left: 0;
   }
   .contsec2 input[type="text"]{
     width: 100%;
