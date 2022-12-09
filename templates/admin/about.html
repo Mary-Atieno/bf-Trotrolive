@@ -1,7 +1,4 @@
-{% load bootstrap4 %}
 {% load static %}
-{% block content %}
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -52,10 +49,9 @@
     </div> 
     <div class="sube">
         <div class="sub">
-            <p class="aboutext">We build bridges between stations and passengers</p>
+            <p class="aboutext">We are the bridge between stations and passengers</p>
             <div class="aboutt">
-                <p class="aboutext2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-            Lorem Ipsum has been the industry's standard dummy text ever since the</p>
+                <p class="aboutext2">With renewal of the mind through technology, simple Ai , and clean stations.</p>
             </div>
         </div>
     </div>    
@@ -66,13 +62,28 @@
         <hr style="width:90%; height:1px; color:#2F304D;">
     </div>
     <div class="toge">
-        <p class="head-text">Together we are strong</p>
+        <div class="heading"><p class="heading-text">Together we are strong!</p>
+        </div>
         <div class="togetext">
-            <h5 class="toge1">Our crew is always getting bigger, but we all work
-        toward one goal: to make transportation success  and possible everywhere.</h5>
-            <p class="toge2">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                when an unknown printer took a galley of type and scrambled it to make a type 
-                specimen book.</p>
+            <h5 class="toge1">Everyone can collaborate on this transport solution’s; we have open source community / Trotro network. Trotro is cultural and social.</h5>
+            <p class="toge2" style="color: #092C4C;"><b>Winners of DigiLogic, EU Funded project, achieving SDGs Goals</b>
+            </p>
+            <div class="logic">
+                <img src="{%static 'images/Digi win.jpg'%}"  alt="DigiLogic" width="100%" class="logic1">
+            </div>
+            <ul style="list-style-type:circle;">
+                <dh class="details-desc">Decent Work And Economic Growth</dh>
+                <li class="details-list">We are building closing the skill gap in the Trotro industry and adding more tech, 
+                record keeping; creating more jobs with high demand skills.</li>
+                <dh class="details-desc">Innovation infrastructure and industry</dh>
+                <li class="details-list">Develop quality, reliable, sustainable and resilient infrastructure, 
+                including regional and transborder infrastructure, to support economic development and human well-being, 
+                with a focus on affordable and equitable access for all</li>
+                <dh class="details-desc">Partnership for Goals</dh>
+                <li class="details-list">Partnership with the Local Goverment, GPRTU AND OTHER transport network.</li>
+                <dh class="details-desc">Sanitation</dh>
+                <li class="details-list">Clean Trotro station and friendly</li>
+            </ul>    
         </div>
     </div>
     <div class="founder">
@@ -86,8 +97,8 @@
             </div>
         </div>
         <div class="ceo2">
-            <p class="goal">"Our goal is to build system that gives passengers and 
-            stations the ability to create fruitful and enduring relations with each other"</p>
+            <p class="goal">"Our goal is to build transportation system that tells how people travel in Africa. 
+                The Africa style of transport- Godfred Addai Amoako"</p>
         </div>
     </div>
     <div class="part-line2">
@@ -120,7 +131,7 @@
         <div class="teamem">
             <div class="teams">
                 <div class="teampic">                    
-                    <img src="{%static 'images/fredpro.jpg'%}"  alt="Hilda" >
+                    <img src="{%static 'images/fredpro.jpg'%}"  alt="Godfred" >
                 </div>
                 <div class="teamrole">
                     <p class="tname">Godfred Addai</p>
@@ -138,11 +149,38 @@
             </div>
             <div class="teams">
                 <div class="teampic">
-                    <img src="{%static 'images/nanapro.jpg'%}"  alt="Hilda" > 
+                    <img src="{%static 'images/nanapro.jpg'%}"  alt="Nana" > 
                 </div>
                 <div class="teamrole">
                     <p class="tname">Nana Asamoah</p>
                     <p class="tposi">Frontend Developer</p>
+                </div>
+            </div>
+            <div class="teams">
+                <div class="teampic">
+                    <img src="{%static 'images/mary.jpg'%}"  alt="Mary" > 
+                </div>
+                <div class="teamrole">
+                    <p class="tname">Mary Atieno</p>
+                    <p class="tposi">Web/Adroid Track</p>
+                </div>
+            </div>
+            <div class="teams">
+                <div class="teampic">
+                    <img src="{%static 'images/saheed.jpg'%}"  alt="Joseph" > 
+                </div>
+                <div class="teamrole">
+                    <p class="tname">Joseph Endale</p>
+                    <p class="tposi">Google Cloud Dev/ Google Grow Andela</p>
+                </div>
+            </div>
+            <div class="teams">
+                <div class="teampic">
+                    <img src="{%static 'images/saed.jpg'%}"  alt="Saheed" > 
+                </div>
+                <div class="teamrole">
+                    <p class="tname">Saheed Adeyemi</p>
+                    <p class="tposi">Cloud Engineer</p>
                 </div>
             </div>
         </div>
@@ -164,10 +202,8 @@
             <p class="head2text">Ask about Trotro.ai product, implementation or anything else. 
             Our highly trained reps are standing by, ready to help.</p>
             <div class="part-line"></div>
-            <div class="concan">
-                <input type="submit" name="submit" value="Contact Us" class="btn">
-                           
-                <!-- <input type="submit" name="submit" value="Contact Us" class="contt"> -->
+            <div class="concan">                            
+                <input type="submit" name="submit" value="Contact Us" class="contt">
             </div>
         </div>
         <div class="con-right">
@@ -216,7 +252,7 @@
     </div>
     <footer>
         <div class="socials">
-            <div>         
+            <div>            
                 <img src="{%static 'images/twitter.svg'%}"  alt="comma-pic">  
             </div>
             <div>            
@@ -231,9 +267,7 @@
         </div>
         <div>
             <div class="policy-box">
-                <p class="copyright text-center">Copyright &copy; 404 Solutions Inc 2022 . All rights reserved.</p>
-
-                <!-- <span>&#169; 404 Solutions Inc 2022 . All rights reserved. </span> -->
+                <span>&#169; 404 Solutions Inc 2022 . All rights reserved. </span>
             </div>
             <div class="termsbox">
                 <a href="#">Terms</a>
@@ -251,4 +285,3 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>    
 </body>
 </html>
-{%endblock%}
