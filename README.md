@@ -3,9 +3,11 @@
 ## Authors/Collaborators
 
 - Godfred Addai Amoako
+- Hilda Amadu
 - Mary Atieno
 - Joseph Endale
 - Saheed Adeyemi
+
 
 ## Description
 
@@ -50,6 +52,7 @@ Here is a run through of how to set up the application:
 ## Contacts
 
 - DeveloperKoose@gmail.com
+- hildaamadu@gmail.com
 - mercymary958@gmail.com
 - josi.endal45@gmail.com
 - sadorwilliamz3@gmail.com
