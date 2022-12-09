@@ -13,4 +13,6 @@ def about(request):
        
 def contact(request):
     return render(request,'admin/contact.html')  
+def geocode(request):
+    return render(request,'admin/geocode.html')     
 
