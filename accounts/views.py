@@ -12,7 +12,14 @@ def about(request):
     return render(request,'admin/about.html') 
        
 def contact(request):
-    return render(request,'admin/contact.html')  
+    return render(request,'admin/contact.html') 
+
 def geocode(request):
-    return render(request,'admin/geocode.html')     
+    return render(request,'admin/geocode.html')
+
+def service(request):
+    return render(request,'admin/service.html') 
+
+def faq(request):
+    return render(request,'admin/faq.html')   
 
